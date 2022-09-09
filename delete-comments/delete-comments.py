@@ -1,5 +1,5 @@
 # reading the file
-with open("edit-xlsx-file-with-python.py") as fp:
+with open("../edit-xlsx-file-with-python.py") as fp:
     contents=fp.readlines()
 
 # initialize two counter to check mismatch between "(" and ")"
@@ -38,5 +38,5 @@ for number in range(len(contents)):
 
 
 # writing into a new file
-with open("testfile.py","w") as fp:
+with open("testfile.py", "w") as fp:
     fp.writelines(contents)
